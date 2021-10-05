@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 30, 30);
+    /* display: none; */
+}
+.remove{
+    display: none;
+}
+.inner{
+    width: 500px;
+    height: 500px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    margin-top: 35px;
+    font-size: 40px;
+    color: snow;
+   
+}
+.set_name{
+    margin-top: 40px;
+    font-size: 26px;
+    color: snow;
+}
+input{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 40px;
+    outline: none;
+    font-size: 15px;
+    border: 2px solid lightcyan;
+    background-color: rgb(30, 31, 32);
+    color: lightgrey;
+    text-align: center;
+}
+.btn{
+    padding: 8px;
+    margin: 8px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border: 2px solid lightcyan;
+    background-color: rgb(30, 31, 32);
+    color: lightgrey;
+    text-align: center;
+}
+
+.info{
+    margin-top: 15px;
+    font-size: 24px;
+    color: lightgrey
+}
+
+.list{
+    font-size: 20px;
+    color: yellow;
+}
+.abc{
+    margin-top: 15px;
+}
+
+/* it is a second slide css */
+.info_main{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:rgb(39, 30, 30);
+}
+.info_inner{
+    display: flex;
+    flex-direction: column;
+   margin-top: 130px;
+}
+.info_head{
+    margin: 10px;
+    color: aquamarine;
+   text-align: center;
+   /* display: none; */
+}
+.info_box{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_task{
+    margin-top: -120px;
+    margin: 9px;
+    padding: 30px;
+    width: 1100px;
+    word-break: break-all;
+    /* border: 2px solid whitesmoke; */
+    color: whitesmoke;
+    font-size: 22px;
+    box-shadow: 2px 2px 9px 2px black;
+    display: none;
+    user-select: none;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+textarea{
+    font-size: 25px;
+    background-color: rgb(47, 49, 44);
+    color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 8px solid whitesmoke;
+    /* box-shadow: 2px 2px 7px 3px  ; */
+    outline: none;
+}
+.text_remove{
+    display: none;
+}
+
+.info_start{
+    margin: 0.99pc;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 3px solid lightcyan;
+    outline: none;
+    font-size: 15px;
+}
+
+.result{
+    color: yellow;
+}
+h3{
+    color: yellow;
+    text-decoration: underline;
+}
+p{
+    font-size: 35px;
+}
+.style{
+    padding: 12px;
+    border-radius: 35px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    font-weight: 50px;
+}
